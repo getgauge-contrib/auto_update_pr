@@ -1,5 +1,5 @@
 name: 'Auto Update PR'
-description: 'Updates open pull requests' branch with the latest upstream changes by merging HEAD from the base branch into the pull request branch.'
+description: 'Updates open pull requests branch with the latest upstream changes by merging HEAD from the base branch into the pull request branch.'
 author: 'Gauge Team'
 inputs:
   token:
