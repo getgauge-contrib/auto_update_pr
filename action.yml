@@ -1,0 +1,10 @@
+name: 'Auto Update PR'
+description: 'Updates open pull requests' branch with the latest upstream changes by merging HEAD from the base branch into the pull request branch.'
+author: 'Gauge Team'
+inputs:
+  token:
+    description: "Secret token that has access to comment on the PR"
+    default: ${{ github.token }}
+runs:
+  using: "node12"
+  main: "src/index.js"
